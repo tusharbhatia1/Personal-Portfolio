@@ -16,6 +16,7 @@ header{
 	background-position: right,center;
 	background-repeat: no-repeat,no-repeat;
 	clip-path: polygon(50% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+	background-attachment: fixed;
 }
 
 .logo{
@@ -173,6 +174,7 @@ nav{
 	background: url(Images/bg2.jpg);
 	background-size: cover;
 	color: white;
+	background-attachment: fixed;
 }
 
 .skills-row{
@@ -237,7 +239,7 @@ progress{
 .service-box{
 	flex-basis: 25%;
 	text-align: center;
-	box-shadow: 2px 3px 5px grey;
+	box-shadow: 2px 3px 5px lightgray;
 	padding: 20px;
 	margin-top: 20px;
 }
@@ -246,6 +248,8 @@ progress{
 	background: #ffaa15;
 	color: white;
 	transition: 0.4s;
+	box-shadow: 4px 6px 4px grey; 
+	border-radius: 7px;
 }
 
 .service-box img{
@@ -338,3 +342,79 @@ progress{
 	align-items: center;
 	font-size: 20px; 
 }
+
+											/*Media Query*/
+/*
+
+@media only screen and (max-width:770px){
+	header{
+		background: url(Images/bg1.jpg);
+		background-size: cover;
+	}
+	
+	.menu a{
+		display: none;
+	}
+	
+	.logo{
+		padding-left: 50px;
+	}
+	
+	.text{
+		margin-left: 50px;
+	}
+	
+	.about-left-col{
+		flex-basis: 100%;
+	}
+
+	.about-left-col img{
+		width: 100%;
+		padding: 50px;
+	}
+
+	.about-right-col{
+		flex-basis: 100%;
+	}
+	
+	.skills-left-col{
+		flex-basis: 100%;
+	}
+	
+	.skills-right-col{
+		flex-basis: 100%;
+	}
+	
+	.progress-div{
+		width: 80%;
+	}
+	.progress-div p{
+		margin-bottom: 10px;
+		font-size: 18px;
+		padding-left: 20px;
+		text-align: justify;
+	}
+	
+	.service-box{
+		flex-basis: 100%;
+		margin-top: 20px;
+
+	}
+	.service-box img{
+		width: 60%;
+	}
+	
+	.contact-left-col{
+		flex-basis: 100%;
+	}
+
+	.contact-right-col{
+		flex-basis: 100%;
+	}
+	
+	#footer{
+		padding: 10px;
+		font-size: 10px; 
+	}
+
+}*/
