@@ -1,4 +1,4 @@
-  		/*		DEFAULT		*/
+  									/*		DEFAULT		*/
 
 *{
 	padding: 0;
@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-		/*	   Header  	*/
+									/*	   Header  	*/
 
 header{
 	width: 100%;
@@ -45,6 +45,7 @@ header{
 .menu a:hover{
 	background: #ffaa15;
 	transition: 0.4;
+	border-radius: 3px;
 }
 
 nav{
@@ -78,9 +79,10 @@ nav{
 	background: #ffaa15;
 	padding: 10px;
 	margin-top: 20px;
+	border-radius: 3px;
 }
 
-		/* 	 	About  		*/
+									/* 	 	About  		*/
 
 #about{
 	padding: 100px 50px;
@@ -130,7 +132,7 @@ nav{
 	text-align: justify;
 }
 
-/*	 Education   */
+										/*	 Education   */
 
 #edu{
 	padding: 100px 50px;
@@ -164,7 +166,7 @@ nav{
 	padding: 30px;
 }
 
-/*Skills*/
+										/*Skills*/
 
 #skills{
 	padding: 100px 50px;
@@ -219,7 +221,7 @@ progress{
 	text-align: justify;
 }
 
-/*Services*/
+											/*Services*/
 
 #services{
 	padding: 100px 50px;
@@ -250,7 +252,36 @@ progress{
 	width: 60%;
 }
 
-/*Contact*/
+										/* Tools */
+
+#tech{
+	padding: 100px 50px;
+	background: linear-gradient(25deg, #ffaa15 49%, white 0%);
+}
+
+.tech-row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.tech-box{
+	flex-basis: 33.33%;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.tech-box:hover{
+	box-shadow: 2px 3px 5px lightgray;
+}
+
+.tech-box img{
+	width: 40%;
+}
+
+										/*Contact*/
 
 #contact{
 	padding: 100px 50px;
@@ -296,7 +327,7 @@ progress{
 	padding: 10px;
 }
 
-/*Footer*/
+											/*Footer*/
 
 #footer{
 	background: #ffaa15;
