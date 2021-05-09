@@ -285,6 +285,144 @@ progress{
 	width: 40%;
 }
 
+		/* Certifications */
+
+#cer{
+	padding: 100px 50px;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(340deg, #ffaa15 45%, white 0%);
+}
+
+.slider{
+	width: 800px;
+	height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.slides{
+	width: 500%;
+	height: 500px;
+	display: flex;
+}
+
+.slides input{
+	display: none;
+}
+
+.slide{
+	width: 20%;
+	transition: 2s;
+}
+
+.slide img{
+	width: 800px;
+	height: 500px;
+}
+
+.navigation-manual{
+	position: absolute;
+	width: 800px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn{
+	border: 3px solid #ffaa15;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+	margin-right: 40px;
+}
+
+.manual-btn:hover{
+	background: #ffaa15;
+}
+
+#radio1:checked ~ .first{
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+	margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+	margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+	margin-left: -80%;
+}
+
+#radio6:checked ~ .first{
+	margin-left: -100%;
+}
+
+#radio7:checked ~ .first{
+	margin-left: -120%;
+}
+
+.navigation-auto{
+	position: absolute;
+	display: flex;
+	width: 800px;
+	justify-content: center;
+	margin-top: 460px;
+}
+
+.navigation-auto div{
+	border: 3px solid #ffaa15;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+	margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+	background: #ffaa15;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+	background: #ffaa15;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+	background: #ffaa15;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+	background: #ffaa15;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+	background: #ffaa15;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+	background: #ffaa15;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7{
+	background: #ffaa15;
+}
+
 										/*Contact*/
 
 #contact{
@@ -343,7 +481,8 @@ progress{
 	font-size: 20px; 
 }
 
-											/*Media Query*/
+
+/*Media Query*/
 /*
 
 @media only screen and (max-width:770px){
