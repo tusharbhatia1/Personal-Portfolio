@@ -73,6 +73,8 @@ nav{
 	font-size: 25px;
 }
 
+
+
 .cbtn{
 	border: none;
 	outline: none;
@@ -80,7 +82,20 @@ nav{
 	background: #ffaa15;
 	padding: 10px;
 	margin-top: 20px;
-	border-radius: 3px;
+	border-radius: 5px;
+	box-shadow: 2px 3px 5px grey;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+	cursor: pointer;
+}
+
+.cbtn:hover, .cbtn:focus, .cbtn:active{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-transform : scale(1.1);
+	transform: scale(1.1);
+	background-color: darkorange;
 }
 
 									/* 	 	About  		*/
@@ -250,6 +265,9 @@ progress{
 	transition: 0.4s;
 	box-shadow: 4px 6px 4px grey; 
 	border-radius: 7px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-transform : scale(1.1);
+	transform: scale(1.1);
 }
 
 .service-box img{
@@ -514,6 +532,9 @@ progress{
 	opacity: 1;
 	background: white;
 	font-size: 23px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-transform : scale(1.1);
+	transform: scale(1.1);
 }
 
 
