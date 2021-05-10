@@ -1,7 +1,26 @@
+:root{
+	--mainColor:#eaeaea;
+	--secondColor:#fff;
+	
+	--borderColor:#c1c1c1;
+	
+	--mainText:black;
+	--secondText:#4b5156;
+	
+	--themeDotBorder: lightgray;
+}
+
 .theme-dot{
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
 	background-color: white;
+	box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 	cursor: pointer;
+	margin: 5px;
+	border: 2px solid var(--themeDotBorder);
+}
+
+#theme-option-wrapper{
+	display: flex;
 }
