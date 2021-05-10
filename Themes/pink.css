@@ -1,0 +1,99 @@
+.logo span{
+	color: #FBA399;
+}
+
+.menu a:hover{
+	background: #FBA399;
+}
+
+.cbtn{
+	background: #FBA399;
+}
+
+#ani{
+	color: #FBA399;
+	font-size: 20px;
+}
+
+#ani2{
+	color: #FBA399;
+	font-size: 20px;
+}
+
+/*Dark*/
+.cbtn:hover, .cbtn:focus, .cbtn:active{
+	background-color: #FA8072;
+}
+
+
+.sec-info p{
+	color: #FBA399;
+}
+
+#edu{
+	background: linear-gradient(204deg, #FBA399 45%, white 0%);
+}
+
+.service-box:hover{
+	background: #FBA399;
+}
+
+#tech{
+	background: linear-gradient(25deg, #FBA399 49%, white 0%);
+}
+
+#cer{
+	background: linear-gradient(340deg, #FBA399 45%, white 0%);
+}
+
+.manual-btn{
+	border: 3px solid #FBA399;
+}
+
+.manual-btn:hover{
+	background: #FBA399;
+}
+
+.navigation-auto div{
+	border: 3px solid #FBA399;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+	background: #FBA399;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+	background: #FBA399;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+	background: #FBA399;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+	background: #FBA399;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+	background: #FBA399;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+	background: #FBA399;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7{
+	background: #FBA399;
+}
+
+#contact{
+	background: linear-gradient(160deg, #FBA399 45%, white 0%);
+}
+
+#footer{
+	background: #FBA399;
+}
+
+.preloader{
+	background: #FBA399;
+}

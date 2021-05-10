@@ -1,0 +1,99 @@
+.logo span{
+	color: #70DCB8;
+}
+
+.menu a:hover{
+	background: #70DCB8;
+}
+
+.cbtn{
+	background: #70DCB8;
+}
+
+#ani{
+	color: #70DCB8;
+	font-size: 20px;
+}
+
+#ani2{
+	color: #70DCB8;
+	font-size: 20px;
+}
+
+/*Dark*/
+.cbtn:hover, .cbtn:focus, .cbtn:active{
+	background-color: #32CD99;
+}
+
+
+.sec-info p{
+	color: #70DCB8;
+}
+
+#edu{
+	background: linear-gradient(204deg, #70DCB8 45%, white 0%);
+}
+
+.service-box:hover{
+	background: #70DCB8;
+}
+
+#tech{
+	background: linear-gradient(25deg, #70DCB8 49%, white 0%);
+}
+
+#cer{
+	background: linear-gradient(340deg, #70DCB8 45%, white 0%);
+}
+
+.manual-btn{
+	border: 3px solid #70DCB8;
+}
+
+.manual-btn:hover{
+	background: #70DCB8;
+}
+
+.navigation-auto div{
+	border: 3px solid #70DCB8;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+	background: #70DCB8;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+	background: #70DCB8;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+	background: #70DCB8;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+	background: #70DCB8;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+	background: #70DCB8;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+	background: #70DCB8;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7{
+	background: #70DCB8;
+}
+
+#contact{
+	background: linear-gradient(160deg, #70DCB8 45%, white 0%);
+}
+
+#footer{
+	background: #70DCB8;
+}
+
+.preloader{
+	background: #70DCB8;
+}

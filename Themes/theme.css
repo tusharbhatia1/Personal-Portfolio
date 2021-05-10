@@ -19,8 +19,43 @@
 	cursor: pointer;
 	margin: 5px;
 	border: 2px solid var(--themeDotBorder);
+	margin-top: 15px;
+	margin-bottom: 20px;
 }
 
 #theme-option-wrapper{
 	display: flex;
+}
+
+.theme-dot:hover{
+	border: 5px;
+}
+
+#dafault-mode{
+	background-color: #ffaa15;
+}
+
+#pink-mode{
+	background-color: #FBA399;
+}
+
+#green-mode{
+	background-color: #A4D146;
+}
+
+#blue-mode{
+	background-color: #70DCB8;
+}
+
+#purple-mode{
+	background-color: #8B8BC4;
+}
+
+#dark-mode{
+	background-color: grey;
+}
+
+#settings-note{
+	font-size: 15px;
+	font-style: italic;
 }
