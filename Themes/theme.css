@@ -28,7 +28,7 @@
 }
 
 .theme-dot:hover{
-	border: 5px;
+	border: 3px solid black;
 }
 
 #dafault-mode{
@@ -49,10 +49,6 @@
 
 #purple-mode{
 	background-color: #8B8BC4;
-}
-
-#dark-mode{
-	background-color: grey;
 }
 
 #settings-note{

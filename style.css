@@ -6,6 +6,9 @@
 	box-sizing: border-box;
 }
 
+body *{
+	transition: 0.3s;
+}
 									/*	   Header  	*/
 
 header{

@@ -3,17 +3,26 @@
 	<head>
 		<title>Personal Portfolio</title>
 		
+<!--	Default files	-->
 		<link rel="stylesheet" 	type="text/css" href="style.css">
 		<script type="text/javascript" src="custom.js" ></script>
+		
+<!--	Typed js	-->
 		<script src="typed.min.js"></script>
+		
+<!--	Font awesome	-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+		
+<!--	Jquery cdn	-->
 		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-		<link rel="stylesheet" type="text/css" href="style-switch.css">
+		
+<!--	Preloader css	-->
 		<link rel="stylesheet" type="text/css" href="preloader.css">
 		
+<!--	Personalised themes	-->
 		<link rel="stylesheet" type="text/css" href="Themes/theme.css">
 		
-		<link id="theme-style" rel="stylesheet" type="text/css" href="Themes/pink.css">
+		<link id="theme-style" rel="stylesheet" type="text/css" href="">
 		
 	</head>	
 	<body>
@@ -56,11 +65,16 @@
 				<div>
 					<h2 style="text-align:left; color: white;">Personalised Themes</h2>
 					<div id="theme-option-wrapper">
-						<div id="dafault-mode" class="theme-dot"></div>
-						<div id="pink-mode" class="theme-dot"></div>
-						<div id="green-mode" class="theme-dot"></div>
-						<div id="blue-mode" class="theme-dot"></div>
-						<div id="purple-mode" class="theme-dot"></div>
+						
+						<div data-mode="default" id="dafault-mode" class="theme-dot"></div>
+						
+						<div data-mode="pink" id="pink-mode" class="theme-dot"></div>
+						
+						<div data-mode="green" id="green-mode" class="theme-dot"></div>
+						
+						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+						
+						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
 					</div>
 					<p id="settings-note">* Theme options will be saved for<br> your next visit</p>
 				</div>
@@ -84,9 +98,9 @@
 					</div>
 				<div class="about-right-col">
 					<p id="p-title">I'm a <span id="ani2"></span></p>
-					<p>Hello, I am Tushar Bhatia and I am from Kotdwara, Uttarakhand. I am currently persuading B.E in CSE from Chitkara University, Punjab with a maintained CGPA of 9.75 . As per my short term goal I am learning Android Development and some Programming Language. My long term goal is to be placed in a company where I can excel my skills.</p>
-					<a href="https://drive.google.com/file/d/107_xjNOQqfP0J2xxTtlQfk3rJodASOeA/view?usp=sharing" target="_blank"><button class="cbtn">Download Resume</button></a> <br><br>
-					<p>Check My LinkedIn profile :
+					<p id="dark">Hello, I am Tushar Bhatia and I am from Kotdwara, Uttarakhand. I am currently persuading B.E in CSE from Chitkara University, Punjab with a maintained CGPA of 9.75 . As per my short term goal I am learning Android Development and some Programming Language. My long term goal is to be placed in a company where I can excel my skills.</p>
+					<a href="https://drive.google.com/file/d/107_xjNOQqfP0J2xxTtlQfk3rJodASOeA/view?usp=sharing" target="_blank"><button class="cbtn" id="dark">Download Resume</button></a> <br><br>
+					<p id="dark">Check My LinkedIn profile :
 						<a href="https://www.linkedin.com/in/tushar-bhatia-2296ba153" target="_blank"><img src="Images/linkedin.png" alt="LinkedIn" style="height: 35px; width: 35px; padding: 3px; border-radius: 2px;"></a></p>
 					
 				</div>
@@ -321,6 +335,7 @@
 			<a id="backtotop"><i class="fas fa-chevron-up" style="color: black;"></i></a>
 		</section>		
 
+		<script type="text/javascript" src="Themes/script.js"></script>
 		
 		<script type="text/javascript" src="jquery.js"></script>
 								<!-- Typing	Animation	-->
