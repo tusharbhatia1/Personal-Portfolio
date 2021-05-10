@@ -1,3 +1,5 @@
+								/// Certificate animatons ///
+
 var counter = 1;
 setInterval(function(){
 	document.getElementById('radio' + counter).checked = true;
@@ -6,3 +8,4 @@ setInterval(function(){
 		counter = 1;
 	}
 },5000);
+

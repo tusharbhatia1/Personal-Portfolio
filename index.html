@@ -8,9 +8,21 @@
 		<script src="typed.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<link rel="stylesheet" type="text/css" href="style-switch.css">
+		<link rel="stylesheet" type="text/css" href="preloader.css">
 		
 	</head>	
 	<body>
+		
+		<div class="preloader">
+			<div class="wrapper">
+				<div class="circle circle-1"></div>
+				<div class="circle circle-1a"></div>
+				<div class="circle circle-2"></div>
+				<div class="circle circle-3"></div>
+			</div>
+			<h1>Loading &hellip;</h1>
+		</div>
 		
 						<!--	Head section		-->
 		
@@ -33,7 +45,11 @@
 				<p>Hello, I am</p>
 				<h1>Tushar Bhatia</h1>
 				<p><span id="ani" style="color: #ffaa15; font-size: 20px;"></span></p>
-				<button class="cbtn">Hire Me</button>
+				<button class="cbtn">Hire Me</button><br>
+				
+				<div>
+					<h4 style="text-align: center; color: wheat; line-height: 0;"></h4>
+				</div>
 			</div>
 		</header>
 		
@@ -168,7 +184,7 @@
 		</section>
 		
 									<!--	Certifications	-->
-		<div class="sec-info">
+		<div class="sec-info" id="cer-sec">
 					<h1>My certifications</h1>
 				</div>
 		<section id="cer">
@@ -285,11 +301,10 @@
 			<h4>Email:<p>tusharbhatia655@gmail.com</p></h4>
 			<h4>Phone number:<p>9758050848</p></h4>
 			<a id="backtotop"><i class="fas fa-chevron-up" style="color: black;"></i></a>
-		</section>
+		</section>		
 
 		
-		<script type="text/javascript" src="jquery.backtotop.js"></script>
-		
+		<script type="text/javascript" src="jquery.js"></script>
 								<!-- Typing	Animation	-->
 		
 		<script>

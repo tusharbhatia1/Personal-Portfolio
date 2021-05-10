@@ -1,7 +1,10 @@
+								/////// Back to top /////////
+
+
 jQuery("#backtotop").click(function(){
 	jQuery("body,html").animate({
 		scrollTop:0
-	},2000);
+	},3000);
 });
 
 jQuery(window).scroll(function(){
@@ -13,4 +16,15 @@ jQuery(window).scroll(function(){
 	{
 		jQuery("#backtotop").removeClass("visible");	
 	}
+});
+
+
+	
+									////////Loader////////
+
+
+$(window).on('load', function(){
+	setTimeout(function(){
+		$(".preloader").fadeOut('slow');
+	},2000);
 });

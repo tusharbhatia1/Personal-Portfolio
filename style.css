@@ -315,6 +315,10 @@ progress{
 	background: linear-gradient(340deg, #ffaa15 45%, white 0%);
 }
 
+#cer-sec{
+	margin-top: 10px;
+}
+
 .slider{
 	width: 800px;
 	height: 500px;
