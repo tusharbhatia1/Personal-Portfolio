@@ -599,7 +599,8 @@ progress{
 	line-height: 36px;
 	font-size: 20px;
 	text-align: center;
-	border-radius: 4px;
+	border-radius: 6px;
+	cursor: pointer;
 	opacity: .2;
 }
 
