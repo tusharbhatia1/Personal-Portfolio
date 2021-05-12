@@ -587,6 +587,8 @@ progress{
 	font-size: 20px; 
 }
 
+											/*Back to Top*/
+
 #backtotop{
 	z-index: 999;
 	display: inline-block;

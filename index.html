@@ -24,6 +24,9 @@
 		
 		<link id="theme-style" rel="stylesheet" type="text/css" href="">
 		
+<!--  Animation on scroll	-->		
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		
 	</head>	
 	<body>
 		
@@ -91,7 +94,7 @@
 		
 							<!--	About section		-->
 			
-			<section id="about">
+			<section id="about"  data-aos="fade-top">
 				<div class="sec-info">
 					<h1>About</h1>
 					<p>Who I am?</p>
@@ -113,7 +116,7 @@
 		
 								<!--	Education	-->
 		
-		<section id="edu">
+		<section id="edu"  data-aos="fade-top">
 				<div class="sec-info">
 					<h1>Educational Qualification</h1>
 				</div>
@@ -129,7 +132,7 @@
 		
 									<!--	 Skills   	-->
 		
-		<section id="skills">
+		<section id="skills"  data-aos="fade-top">
 			<div class="sec-info">
 					<h1 style="color: white;">Skills</h1>
 					<p>What are my skills</p>
@@ -190,7 +193,7 @@
 		
 								<!--	Tools and technologies	-->
 		
-		<section id="tech">
+		<section id="tech"  data-aos="fade-top">
 			<div class="sec-info">
 					<h1>Tools and technoligies</h1>
 					<p>Tools I have used</p>
@@ -220,7 +223,7 @@
 		</section>
 		
 									<!--	Certifications	-->
-		<div class="sec-info" id="cer-sec">
+		<div class="sec-info" id="cer-sec"  data-aos="fade-top">
 					<h1>My certifications</h1>
 				</div>
 		<section id="cer">
@@ -282,7 +285,7 @@
 		
 									<!--	What I do	-->
 		
-		<section id="services">
+		<section id="services"  data-aos="fade-top">
 			<div class="sec-info">
 					<h1>What I do?</h1>
 				</div>
@@ -307,7 +310,7 @@
 		
 								<!--	Contact	-->
 		
-		<section id="contact">
+		<section id="contact"  data-aos="fade-top">
 			<div class="sec-info" style="color: white;">
 					<h1>Get in touch</h1>
 				<p style="color: black;">We are available</p>
@@ -365,7 +368,7 @@
 			})
 		</script>
 		
-							<!--	After effect added	-->
+							<!--	After click effect	-->
 		
 		<script>
 			var elements = document.getElementsByClassName("theme-dot");
@@ -392,5 +395,14 @@
             }
 		</script>
 		
+							<!--  Animation on scroll	-->
+		
+		 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+				<script>
+					AOS.init({
+						offset: 400,
+						duration: 2000
+					});
+				</script>
 	</body>
 </html>
