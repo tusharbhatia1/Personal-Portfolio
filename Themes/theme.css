@@ -31,6 +31,12 @@
 	border: 3px solid black;
 }
 
+.back-dot{
+	border: 3px solid black;
+	transition: 0.01s;
+	opacity: 0.9;
+}
+
 #dafault-mode{
 	background-color: #ffaa15;
 }

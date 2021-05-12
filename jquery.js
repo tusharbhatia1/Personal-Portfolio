@@ -66,3 +66,11 @@ $('a[href*="#"]')
       }
     }
   });
+
+/////////////////////////////////////////////
+
+//$(document).ready(function(){
+//	$('.submit').click(function(){
+//		$(this).addClass("btnloader");
+//	})
+//})
