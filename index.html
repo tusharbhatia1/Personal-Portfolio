@@ -327,7 +327,15 @@
 						<input type="email" name="" placeholder="E-mail">
 						<br>
 						<textarea cols="40" rows="10" placeholder="Message"></textarea><br>
-						<button class="cbtn">Submit</button>
+						
+						<button id="btn" type="submit">
+							<p id="btnText">Submit</p>
+							<div class="checkbox">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+   									<path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+								</svg>
+							</div>
+						</button>
 					</form> 
 				</div>
 			</div>
@@ -394,7 +402,6 @@
                 };
             }
 		</script>
-		
 							<!--  Animation on scroll	-->
 		
 		 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -404,5 +411,18 @@
 						duration: 2000
 					});
 				</script>
+		
+						<!--	Submit button animation	-->
+		
+		<script>
+				var btn = document.getElementById("btn");
+				var btnText = document.getElementById("btnText");
+
+				btn.onclick = function(){
+					btnText.innerHTML = "Thanks";
+					btn.classList.add("activebtn");
+				}
+		</script>
+		
 	</body>
 </html>

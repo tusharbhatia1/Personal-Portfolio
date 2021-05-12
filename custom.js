@@ -8,4 +8,3 @@ setInterval(function(){
 		counter = 1;
 	}
 },5000);
-

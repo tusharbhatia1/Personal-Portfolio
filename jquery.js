@@ -67,10 +67,10 @@ $('a[href*="#"]')
     }
   });
 
-/////////////////////////////////////////////
+							////////// Submit Button /////////
 
-//$(document).ready(function(){
-//	$('.submit').click(function(){
-//		$(this).addClass("btnloader");
-//	})
-//})
+
+document.querySelector('#btn').addEventListener('click', function(event) {
+  event.preventDefault();
+});
+
