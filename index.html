@@ -42,11 +42,11 @@
 		
 						<!--	Head section		-->
 		
-		<header>
+		<header id="head">
 			<nav>
 				<div class="logo">Portfo<span>lio</span></div>
-				<div class="menu">
-					<a href="#">Home</a>
+				<div class="menu" id="menu_list">
+					<a href="#head">Home</a>
 					<a href="#about">About</a>
 					<a href="#edu">Education</a>
 					<a href="#skills">Skills</a>
@@ -56,7 +56,6 @@
 					<a href="#contact">Contact</a>
 				</div>
 			</nav>
-			
 			<div class="text">
 				<p>Hello, I am</p>
 				<h1>Tushar Bhatia</h1>
@@ -91,6 +90,18 @@
 				
 			</div>
 		</header>
+		
+		<section id="sidenav">
+			<a id="menubars"><i class="fas fa-bars"></i></a> 
+			<a href="#head">Home</a>
+			<a href="#about">About</a>
+			<a href="#edu">Education</a>
+			<a href="#skills">Skills</a>
+			<a href="#tech">Tools</a>
+			<a href="#cer-sec">Certifications</a>
+			<a href="#services">More</a>
+			<a href="#contact">Contact</a>
+		</section>
 		
 							<!--	About section		-->
 			
@@ -293,17 +304,17 @@
 				<div class="service-box">
 					<img src="Images/learn.png">
 					<h2>Learn</h2>
-					<p>Grab the knowledge about each and ever topic from various sources.</p>
+<!--					<p>Grab the knowledge about each and ever topic from various sources.</p>-->
 				</div>
 				<div class="service-box">
 					<img src="Images/apply.png">
 					<h2>Apply</h2>
-					<p>Apply the Learnings by making projects so as to learn things more effectively.</p>
+<!--					<p>Apply the Learnings by making projects so as to learn things more effectively.</p>-->
 				</div>
 				<div class="service-box">
 					<img src="Images/grow.png">
 					<h2>Grow</h2>
-					<p>When one topic is covered completely start learning advance topics.</p>
+<!--					<p>When one topic is covered completely start learning advance topics.</p>-->
 				</div>
 			</div>
 		</section>
@@ -421,6 +432,24 @@
 				btn.onclick = function(){
 					btnText.innerHTML = "Thanks";
 					btn.classList.add("activebtn");
+				}
+		</script>
+	
+<!--	Sidenav	-->
+		
+		<script>
+			var menu = document.getElementById("menubars");
+			var sidenav = document.getElementById("sidenav");
+	
+			sidenav.style.width ="0px";
+			menu.onclick =function(){
+				if (sidenav.style.width=="0px"){
+					sidenav.style.width="250px";
+					}
+	
+				else{
+					sidenav.style.width="0px";
+					}
 				}
 		</script>
 		

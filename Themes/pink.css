@@ -30,6 +30,19 @@
 	color: #FBA399;
 }
 
+/*Media Queries*/
+
+@media (max-width: 1410px){
+	
+	#sidenav a:hover{
+		background: #FBA399;
+	}
+	
+	#menubars:hover, #menubars:active, #menubars:focus{
+		background: #FBA399;
+	}
+}
+
 #edu{
 	background: linear-gradient(204deg, #FBA399 45%, white 0%);
 }

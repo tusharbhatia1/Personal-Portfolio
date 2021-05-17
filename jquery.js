@@ -20,7 +20,7 @@ jQuery(window).scroll(function(){
 
 
 	
-									////////Loader////////
+									//////Loader////////
 
 
 $(window).on('load', function(){
