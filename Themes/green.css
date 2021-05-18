@@ -30,19 +30,6 @@
 	color: #A4D146;
 }
 
-/*Media Queries*/
-
-@media (max-width: 1410px){
-	
-	#sidenav a:hover{
-		background: #A4D146;
-	}
-	
-	#menubars:hover, #menubars:active, #menubars:focus{
-		background: #A4D146;
-	}
-}
-
 #edu{
 	background: linear-gradient(204deg, #A4D146 45%, white 0%);
 }
@@ -109,4 +96,23 @@
 
 .preloader{
 	background: #A4D146;
+}
+
+/*Media Queries*/
+
+@media (max-width: 1410px){
+	
+	#sidenav a:hover{
+		background: #A4D146;
+	}
+	
+	#menubars:hover, #menubars:active, #menubars:focus{
+		background: #A4D146;
+	}
+}
+
+@media (max-width: 600px){
+	#tech{
+		background: white;
+	}
 }

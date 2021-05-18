@@ -30,17 +30,6 @@
 	color: #8B8BC4;
 }
 
-@media (max-width: 1410px){
-	
-	#sidenav a:hover{
-		background: #8B8BC4;
-	}
-	
-	#menubars:hover, #menubars:active, #menubars:focus{
-		background: #8B8BC4;
-	}
-}
-
 #edu{
 	background: linear-gradient(204deg, #8B8BC4 45%, white 0%);
 }
@@ -107,4 +96,22 @@
 
 .preloader{
 	background: #8B8BC4;
+}
+
+		/*Media Queries*/
+@media (max-width: 1410px){
+	
+	#sidenav a:hover{
+		background: #8B8BC4;
+	}
+	
+	#menubars:hover, #menubars:active, #menubars:focus{
+		background: #8B8BC4;
+	}
+}
+
+@media (max-width: 600px){
+	#tech{
+		background: white;
+	}
 }

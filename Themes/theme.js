@@ -20,23 +20,23 @@ for (var i=0; themeDots.length > i; i++)
 
 function setTheme(mode){
 	if(mode == 'default'){
-		document.getElementById('theme-style').href = 'style.css'
+		document.getElementById('theme-style').href = 'style.css';
 	}
 	
 	if(mode == 'pink'){
-		document.getElementById('theme-style').href = 'Themes/pink.css'
+		document.getElementById('theme-style').href = 'Themes/pink.css';
 	}
 	
 	if(mode == 'green'){
-		document.getElementById('theme-style').href = 'Themes/green.css'
+		document.getElementById('theme-style').href = 'Themes/green.css';
 	}
 	
 	if(mode == 'blue'){
-		document.getElementById('theme-style').href = 'Themes/blue.css'
+		document.getElementById('theme-style').href = 'Themes/blue.css';
 	}
 	
 	if(mode == 'purple'){
-		document.getElementById('theme-style').href = 'Themes/purple.css'
+		document.getElementById('theme-style').href = 'Themes/purple.css';
 	}
 	
 	localStorage.setItem('theme', mode)

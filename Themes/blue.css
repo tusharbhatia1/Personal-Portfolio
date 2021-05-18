@@ -110,3 +110,9 @@
 		background: #70DCB8;
 	}
 }
+
+@media (max-width: 600px){
+	#tech{
+		background: white;
+	}
+}

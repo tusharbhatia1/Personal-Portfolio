@@ -42,7 +42,7 @@
 		
 						<!--	Head section		-->
 		
-		<header id="head">
+		<header class="header "id="head">
 			<nav>
 				<div class="logo">Portfo<span>lio</span></div>
 				<div class="menu" id="menu_list">
@@ -68,15 +68,16 @@
 					<h2 style="text-align:left; color: white;">Personalised Themes</h2>
 					<div id="theme-option-wrapper">
 						
-						<div data-mode="default" id="dafault-mode" class="theme-dot"></div>
+						<div data-mode="default" id="dafault-mode" class="theme-dot modal-btn1"></div>
 						
-						<div data-mode="pink" id="pink-mode" class="theme-dot"></div>
+						<div data-mode="pink" id="pink-mode" class="theme-dot modal-btn2"></div>
 						
-						<div data-mode="green" id="green-mode" class="theme-dot"></div>
+						<div data-mode="green" id="green-mode" class="theme-dot modal-btn3"></div>
 						
-						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+						<div data-mode="blue" id="blue-mode" class="theme-dot modal-btn4"></div>
 						
-						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+						<div data-mode="purple" id="purple-mode" class="theme-dot modal-btn5"></div>
+						
 					</div>
 					<p id="settings-note">* Theme options will be saved for<br> your next visit</p>
 				</div>
@@ -90,6 +91,8 @@
 				
 			</div>
 		</header>
+		
+							<!--	SideNav	-->
 		
 		<section id="sidenav">
 			<a id="menubars"><i class="fas fa-bars"></i></a> 
@@ -359,7 +362,16 @@
 			<h4>Email:<p>tusharbhatia655@gmail.com</p></h4>
 			<h4>Phone number:<p>9758050848</p></h4>
 			<a id="backtotop"><i class="fas fa-chevron-up" style="color: black;"></i></a>
-		</section>		
+		</section>	
+		
+		<div class="modal-bg">
+			<div class="modal">
+				<div class="alerticon"><i class="fas fa-check"></i></div>
+				<div class="msg">Success!!</div>
+				<div class="description">Theme loaded successfully.</div>
+				<div class="dismiss-btn"><button id="dismiss-popup">Dismiss</button></div>
+			</div>
+		</div>
 		
 
 		<script type="text/javascript" src="Themes/theme.js"></script>
@@ -451,6 +463,44 @@
 					sidenav.style.width="0px";
 					}
 				}
+		</script>
+		
+						<!--	Custom Alert Box	-->
+		
+		<script>
+			let modalBtn1 = document.querySelector('.modal-btn1');
+			let modalBtn2 = document.querySelector('.modal-btn2');
+			let modalBtn3 = document.querySelector('.modal-btn3');
+			let modalBtn4 = document.querySelector('.modal-btn4');
+			let modalBtn5 = document.querySelector('.modal-btn5');
+			
+			var modalBg = document.querySelector('.modal-bg');
+			
+			var modalClose = document.querySelector('.dismiss-btn');
+
+			modalBtn1.addEventListener('click',function(){
+				modalBg.classList.add('modal-active');
+			});
+			
+			modalBtn2.addEventListener('click',function(){
+				modalBg.classList.add('modal-active');
+			});
+			
+			modalBtn3.addEventListener('click',function(){
+				modalBg.classList.add('modal-active');
+			});
+			
+			modalBtn4.addEventListener('click',function(){
+				modalBg.classList.add('modal-active');
+			});
+			
+			modalBtn5.addEventListener('click',function(){
+				modalBg.classList.add('modal-active');
+			});
+			
+			modalClose.addEventListener('click',function(){
+				modalBg.classList.remove('modal-active');
+			});
 		</script>
 		
 	</body>
