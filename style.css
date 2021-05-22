@@ -968,10 +968,6 @@ svg path{
 /* potrait tablets, e-readers kindle */
 
 @media (max-width: 800px){
-	header{
-		background: url(Images/bg1.jpg);
-		background-size: cover;
-		}
 	
 	#cer{
 		background: white;
@@ -1027,6 +1023,11 @@ svg path{
 
 @media (max-width:900px)
 {
+	header{
+		background: url(Images/bg1.jpg);
+		background-size: cover;
+		}
+	
 	.slide img{
 	width: 750px;
 	}
