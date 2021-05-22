@@ -859,15 +859,17 @@ svg path{
 	#menubars{
 		position: fixed;
 		top: 10px;
-		left: 50px;
-		font-size: 15px;
+		left: 0px;
+		font-size: 5px;
 		cursor: pointer;
+		background: rgba(0,0,0,0.1);
+		border-radius: 30%;
 	}
 	
-	#menubars:hover, #menubars:active, #menubars:focus{
-		background: #ffaa15;
+	#menubars.bars:hover, #menubars.bars:active, #menubars.bars:focus{
+		background: darkorange;
 		transition: 0.4;
-		border-radius: 3px;
+		border-radius: 8px;
 	}
 }
 
@@ -971,14 +973,19 @@ svg path{
 		background-size: cover;
 		}
 	
+	#cer{
+		background: white;
+		}
+	
 	.slide img{
 		width: 680px;
 		height: 450px;
 	}
 	
-	.navigation-manual
-	.manual-btn
-	.navigation-auto
+	.manual-btn{
+		display: none;
+	}
+	
 	.navigation-auto div{
 		display: none;
 	}
@@ -999,6 +1006,10 @@ svg path{
 	
 	.tech-box{
 		flex-basis: 100%;
+	}
+	
+	body{
+		overflow-x: hidden;
 	}
 }
 

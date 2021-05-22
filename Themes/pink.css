@@ -106,8 +106,8 @@
 		background: #FBA399;
 	}
 	
-	#menubars:hover, #menubars:active, #menubars:focus{
-		background: #FBA399;
+	#menubars.bars:hover, #menubars.bars:active, #menubars.bars:focus{
+		background: #FA8072;
 	}
 }
 
