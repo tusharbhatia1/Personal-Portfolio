@@ -860,7 +860,7 @@ svg path{
 		position: fixed;
 		top: 10px;
 		left: 0px;
-		font-size: 5px;
+		font-size: 20px;
 		cursor: pointer;
 		background: rgba(0,0,0,0.1);
 		border-radius: 30%;
