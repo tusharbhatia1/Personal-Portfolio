@@ -818,7 +818,8 @@ svg path{
 
 /* big landscape tablets, low resolution desktops/laptops */
 
-@media (max-width: 1410px){
+/*
+@media only screen and (max-width: 1410px){
 	
 	.logo{
 		padding-left: 150px;
@@ -873,15 +874,17 @@ svg path{
 	}
 }
 
-@media (max-width: 1100px){
+@media only screen and (max-width: 1100px){
 	.edu-right-col{
 		flex-basis: 30%;
 	}
 }
+*/
 
 /* tablets,landscape, low resolution desktops/laptops */
 
-@media (max-width: 990px){
+/*
+@media only screen and (max-width: 990px){
 	
 	.text{
 		margin-left: 50px;
@@ -963,11 +966,13 @@ svg path{
 		font-size: 10px; 
 		}
 }
+*/
 
 
 /* potrait tablets, e-readers kindle */
 
-@media (max-width: 800px){
+/*
+@media only screen and (max-width: 800px){
 	
 	#cer{
 		background: white;
@@ -986,11 +991,13 @@ svg path{
 		display: none;
 	}
 }
+*/
 
 
 /* smartphones, android phones, landscape iphone */
+/*
 
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
 	.slide img{
 		width: 500px;
 		height: 300px;
@@ -1008,20 +1015,24 @@ svg path{
 		overflow-x: hidden;
 	}
 }
+*/
 
 
 /* smartphones, potrait (480*320) android phones, potrait iphone */
 
-@media (max-width: 480px){
+/*
+@media only screen and (max-width: 480px){
 	.slide img{
 		width: 400px;
 		height: 200px;
 	}
 }
+*/
 
 /*Extra cases for certifications slider*/
 
-@media (max-width:900px)
+/*
+@media only screen and (max-width:900px)
 {
 	header{
 		background: url(Images/bg1.jpg);
@@ -1032,16 +1043,192 @@ svg path{
 	width: 750px;
 	}
 }
-@media (max-width: 750px){
+@media only screen and (max-width: 750px){
 	.slide img{
 		width: 600px;
 		height: 450px;
 	}
 }
 
-@media (max-width: 700px){
+@media only screen and (max-width: 700px){
 	.slide img{
 		width: 580px;
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.slide img{
+		width: 530px;
+		height: 330px;
+	}
+}
+@media only screen and (max-width: 550px){
+	.slide img{
+		width: 430px;
+		height: 300px;
+	}
+}
+*/
+
+/* big landscape tablets, low resolution desktops/laptops */
+
+@media (max-width: 1410px){
+
+	.logo{
+		padding-left: 150px;
+	}
+
+	.menu a{
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	#sidenav{
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 0px;
+		height: 100vh;
+		background: rgba(0,0,0,0.8);
+		padding: 100px 0px;
+		transition: 0.4s;
+		display: block;
+	}
+
+	#sidenav a{
+		text-decoration: none;
+		color: white;
+		font-size: 20px;
+		margin: 8px 30px;
+		padding: 20px;
+		display: block;
+	}
+
+	#sidenav a:hover{
+		background: #ffaa15;
+		transition: 0.4;
+		border-radius: 3px;
+	}
+
+	#menubars{
+		position: fixed;
+		top: 10px;
+		left: 50px;
+		font-size: 15px;
+		cursor: pointer;
+	}
+
+	#menubars:hover, #menubars:active, #menubars:focus{
+		background: #ffaa15;
+		transition: 0.4;
+		border-radius: 3px;
+	}
+}
+
+/* tablets,landscape, low resolution desktops/laptops */
+
+@media (max-width: 990px){
+	.logo{
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+/* potrait tablets, e-readers kindle */
+
+@media (max-width: 800px){
+	header{
+		background: url(Images/bg1.jpg);
+		background-size: cover;
+		}
+
+	.text{
+		margin-left: 50px;
+		}
+
+		.text{
+		margin-left: 50px;
+		}
+
+	.about-left-col{
+		flex-basis: 100%;
+		}
+
+	.about-left-col img{
+		width: 100%;
+		padding: 50px;
+		}
+
+	.about-right-col{
+		flex-basis: 100%;
+		}
+
+	.edu-left-col{
+		flex-basis: 100%;
+	}
+
+	.edu-rigth-col{
+		flex-basis: 100%;
+	}
+
+	.edu-right-col img{
+		display: none;
+	}
+
+	.skills-left-col{
+		flex-basis: 100%;
+		}
+
+	.skills-right-col{
+		flex-basis: 100%;
+		}
+
+	.progress-div{
+		width: 80%;
+		}
+
+	.progress-div p{
+		margin-bottom: 10px;
+		font-size: 18px;
+		padding-left: 20px;
+		text-align: justify;
+		}
+
+	.service-box{
+
+		flex-basis: 100%;
+		margin-top: 20px;
+
+		}
+
+	.service-box img{
+		width: 60%;
+		}
+
+	.slide img{
+		width: 650px;
+		height: 450px;
+	}
+
+	.contact-left-col{
+		flex-basis: 100%;
+		}
+
+	.contact-right-col{
+		flex-basis: 100%;
+		}
+
+	#footer{
+		padding: 10px;
+		font-size: 10px; 
+		}
+}
+
+@media (max-width: 700px){
+	.slide img{
+		width: 550px;
 		height: 350px;
 	}
 }
@@ -1052,10 +1239,22 @@ svg path{
 		height: 330px;
 	}
 }
-@media (max-width: 550px){
+
+/* smartphones, android phones, landscape iphone */
+
+@media (max-width: 600px){
 	.slide img{
-		width: 430px;
+		width: 500px;
 		height: 300px;
+	}
+}
+
+/* smartphones, potrait (480*320) android phones, potrait iphone */
+
+@media (max-width: 480px){
+	.slide img{
+		width: 400px;
+		height: 200px;
 	}
 }
 
