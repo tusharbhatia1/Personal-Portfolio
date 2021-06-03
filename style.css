@@ -818,7 +818,6 @@ svg path{
 
 /* big landscape tablets, low resolution desktops/laptops */
 
-/*
 @media only screen and (max-width: 1410px){
 	
 	.logo{
@@ -879,11 +878,9 @@ svg path{
 		flex-basis: 30%;
 	}
 }
-*/
 
 /* tablets,landscape, low resolution desktops/laptops */
 
-/*
 @media only screen and (max-width: 990px){
 	
 	.text{
@@ -966,12 +963,10 @@ svg path{
 		font-size: 10px; 
 		}
 }
-*/
 
 
 /* potrait tablets, e-readers kindle */
 
-/*
 @media only screen and (max-width: 800px){
 	
 	#cer{
@@ -991,11 +986,9 @@ svg path{
 		display: none;
 	}
 }
-*/
 
 
 /* smartphones, android phones, landscape iphone */
-/*
 
 @media only screen and (max-width: 600px){
 	.slide img{
@@ -1015,25 +1008,25 @@ svg path{
 		overflow-x: hidden;
 	}
 }
-*/
 
 
 /* smartphones, potrait (480*320) android phones, potrait iphone */
 
-/*
 @media only screen and (max-width: 480px){
 	.slide img{
 		width: 400px;
 		height: 200px;
 	}
 }
-*/
 
 /*Extra cases for certifications slider*/
 
-/*
 @media only screen and (max-width:900px)
 {
+	body{
+		width: 100%;
+	}
+	
 	header{
 		background: url(Images/bg1.jpg);
 		background-size: cover;
@@ -1069,7 +1062,6 @@ svg path{
 		height: 300px;
 	}
 }
-*/
 
 /* big landscape tablets, low resolution desktops/laptops */
 /*
