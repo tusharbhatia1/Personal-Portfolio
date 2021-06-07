@@ -999,6 +999,10 @@ svg path {
 /* smartphones, android phones, landscape iphone */
 
 @media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
   .slide img {
     width: 500px;
     height: 300px;
